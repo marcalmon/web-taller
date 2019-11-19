@@ -1,0 +1,23 @@
+@import '../../scss/variables/colors';
+
+.nav-container {
+  width: 100%;
+  height: 150px;
+  background-color: $dark-grey;
+  color: $white;
+  display: flex;
+  justify-content: space-between;
+
+  .nav-img {
+    width: 100px;
+  }
+
+  .nav-list {
+    display: flex;
+    align-items: center;
+
+    .nav-list li {
+      padding: 10px;
+    }
+  }
+}
