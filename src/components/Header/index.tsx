@@ -8,7 +8,7 @@ console.log(styles.navContainer)
 function Header() {
   return (
     <nav className={styles['nav-container']}>
-      <img src={logo} className={styles['nav-img']} />
+      <img src={logo} className={styles['nav-img']} alt="logo" />
       <ul className={styles['nav-list']}>
         <li>HOME</li>
         <li>NOSOTROS</li>
