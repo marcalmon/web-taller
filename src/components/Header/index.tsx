@@ -1,7 +1,7 @@
 import React, { Fragment } from 'react';
 
 import styles from './styles.module.scss';
-import logo from '../../assets/logo.svg';
+import logo from '../../assets/PAGINA.svg';
 
 function Header() {
   return (

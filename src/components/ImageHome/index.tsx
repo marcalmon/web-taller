@@ -7,8 +7,8 @@ function ImageHome() {
     <div className={styles['image-container']}>
       <p className={styles['image-text']}>Calidad en carrocería y pintura para tu auto.</p>
       <div className={styles['buttons-container']}>
-        <button>Servicios</button>
-        <button>Contacto</button>
+        <button>SERVICIOS</button>
+        <button>CONTACTO</button>
       </div>
     </div>
   )
