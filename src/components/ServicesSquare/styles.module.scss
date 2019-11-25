@@ -1,8 +1,14 @@
 @import '../../scss/variables/colors';
 
 .square-container {
-  width: 100%;
-  background-color: red;
+  width: 250px;
+  height: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid $medium-grey;
+  box-shadow: 2px 2px $medium-grey;
+  margin: 10px;
 
   img {
     width: 50px;
