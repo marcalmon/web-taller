@@ -8,11 +8,15 @@
   background-color: $dark-grey;
   color: $white;
   display: flex;
+  align-items: center;
   justify-content: space-between;
 
   .nav-img {
-    width: 100px;
-    padding-left: 30px;
+    width: 200px;
+    height: 100px;
+    margin-left: 50px;
+    background-color: $white;
+    border-radius: 47%;
   }
 
   .nav-list {

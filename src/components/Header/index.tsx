@@ -1,13 +1,13 @@
 import React, { Fragment } from 'react';
 
 import styles from './styles.module.scss';
-import logo from '../../assets/logo.svg';
+import logo from '../../assets/PAGINA.svg';
 
 function Header() {
   return (
     <Fragment>
       <nav className={styles['nav-container']}>
-        <img src={logo} className={styles['nav-img']} />
+        <img src={logo} className={styles['nav-img']} alt="" />
         <ul className={styles['nav-list']}>
           <li>HOME</li>
           <li>NOSOTROS</li>
