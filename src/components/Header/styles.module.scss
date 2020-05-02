@@ -23,16 +23,10 @@
     display: flex;
     align-items: center;
     padding-right: 30px;
-    font-size: 22px;
 
     li {
-      margin: 5px 25px;
+      padding: 5px 25px;
       list-style: none;
-      padding: 5px;
-
-      &:hover {
-        border-bottom: 3px solid $yellow;
-      }
     }
   }
 }

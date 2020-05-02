@@ -8,11 +8,23 @@
   .home-services {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    align-items: center;
+
+    .services-square {
+      display: flex;
+      flex-direction: row;
+    }
+  }
+
+  .home-galery {
+    img {
+      width: 120px;
+      height: 120px;
+    }
   }
 }
 
-.services {
-  display: flex;
-  justify-content: center;
-}
+
+
+
+
