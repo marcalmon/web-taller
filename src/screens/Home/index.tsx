@@ -10,7 +10,6 @@ import Gallery from './components/Gallery';
 import pintura from '../../assets/spray-gun.svg';
 import autopartes from '../../assets/car-parts.svg';
 import mecanica from '../../assets/tools.svg';
-import auto from '../../assets/auto.jpeg';
 
 const Home: React.FC = () => {
   return (
